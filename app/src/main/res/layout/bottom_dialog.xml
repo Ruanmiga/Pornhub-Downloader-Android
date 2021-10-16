@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/menu_main_container"
+		android:background="@android:color/transparent">
+
+		<LinearLayout
+			android:id="@+id/container"
+			android:background="@drawable/transparent_round_bg"
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="8dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginLeft="8dp"
+			android:padding="10dp">
+
+		</LinearLayout>
+
+
+		<TextView
+			android:id="@+id/cancel"
+			android:background="@drawable/transparent_round_bg"
+			android:layout_width="match_parent"
+			android:layout_height="52dp"
+			android:text="Cancelar"
+			android:gravity="center"
+			android:textSize="14sp"
+			android:textColor="#5C8DFC"
+			android:layout_marginStart="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginLeft="8dp">
+
+		</TextView>
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="8dp"
+			android:background="@android:color/transparent"/>
+
+	</LinearLayout>
